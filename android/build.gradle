@@ -27,7 +27,7 @@ android {
       namespace 'org.linusu'
     }
     compileSdkVersion safeExtGet('compileSdkVersion', 30)
-    buildToolsVersion safeExtGet('buildToolsVersion', '30.0.3')
+    buildToolsVersion safeExtGet('buildToolsVersion', '33.0.0')
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
